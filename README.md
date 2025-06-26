@@ -13,6 +13,17 @@ A mobile app for tennis tournaments, built with React Native and Expo.
 - iBeacons to detect nearby courts
 - Cloudflare Workers + D1 based backend
 
+## Requirements
+Before installing and running the project, ensure you have the following installed:
+- **Node.js** (v18 or later recommended)
+- **pnpm** (v8+): [Install instructions](https://pnpm.io/installation)
+- **Expo CLI**:
+  ```bash
+  npm install -g expo-cli
+  ```
+- A **physical Android or iOS device** for testing (emulators are not supported due to `react-native-beacon-radar`)
+- Xcode (for iOS development) or Android Studio (for Android development)
+
 ## Installation
 This project uses pnpm as the package manager. You can use `yarn` or `pnpm` if you prefer, but you will need to change the scripts in `package.json`.
 
